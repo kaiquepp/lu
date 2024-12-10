@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+     <link rel="stylesheet" href="styles/style.css">
+    <title>Mozin</title>
+</head>
+<body>
+    <header>
+        <h1>Para meu Mozin</h1>
+        <span id="mor" class="material-symbols-outlined" onclick="clickArticle()">favorite</span>
+    </header>
+    <main>
+        <article id="msg">
+            <h2>A melhor parte do meu dia é o seu sorriso</h2>
+            <p>
+
+                Eu gostaria que todos os dias você se enxergasse com os meus olhos, porque eu te vejo como uma pessoa perfeita. Eu sei que é amor, pois todos os dias eu penso em você. Eu sei que não é fácil, nunca foi e nunca será... Mas não podemos esquecer da forma de viver e conviver com esse amor. Ele é um sentimento que machuca, machuca de uma forma boa e de uma forma ruim também... pois as vezes ele traz alegrias, mas também traz uma tristeza, que nos consome. Seu amor, leve e que me faz tão bem. Você chegou em um dos momentos mais escuros da minha vida trazendo luz, paz e compreensão. Eu te amo mais do que você possa compreender. Você ilumina a minha vida, você é o amor da minha vida. </p>
+        </article>
+    </main>
+    <script>
+        function clickArticle(){
+             if (msg.style.display == "block"){
+                msg.style.display = "none"
+             } else{
+                msg.style.display = "block"
+             }
+        }
+    </script>
+</body>
+</html>
